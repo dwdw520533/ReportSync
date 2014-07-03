@@ -3,7 +3,7 @@ import web
 import os
 import settings
 
-urls = ("/weagent", "weagent.weagent",
+urls = ("/index", "",
         '/weagent/media/(.*)', 'media_file',
         )
 
